@@ -20,7 +20,7 @@ curl --location 'https://jp1pqmyhn9.execute-api.eu-central-1.amazonaws.com/dev/3
 ``` 
 curl --location 'https://jp1pqmyhn9.execute-api.eu-central-1.amazonaws.com/dev/' \
 --header 'Content-Type: text/plain' \
---data 'yagnik'
+--data 'yagnikp'
 ```
 ### Response
 ![img_2.png](img_2.png)
