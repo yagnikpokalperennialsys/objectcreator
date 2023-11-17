@@ -74,7 +74,7 @@ func PostDocument(c *gin.Context) {
 	// Placeholder for sending JSON to SNS topic
 	err = sendTextToSNSTopic(newUUID.String(), string(body))
 	if err != nil {
-		c.JSON(500, gin.H{"error": "Failed to process request", "err": err.Error()})
+		c.JSON(500, gin.H{"error": err.Error()})
 		return
 	}
 
