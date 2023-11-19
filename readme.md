@@ -24,12 +24,29 @@ curl --location 'https://jp1pqmyhn9.execute-api.eu-central-1.amazonaws.com/dev/'
 ```
 ### Response
 ![img4.png](img3.png)
+
 ### Objects in S3
 ![img4.png](img4.png)
+
 ### API gateway configurations
 ![img4.png](img5.png)
+
 #### Objectcreatorhandler
 ![img4.png](img6.png)
+
+### Trigger mechanism
+![img_4.png](img_4.png)
+
+### Lambda runs at every 10 second
+![img.png](img.png)
+
+### Step function to trigger lambda at 10 second
+![img_2.png](img_2.png)
+
+### Event bridge scheduler
+![img_1.png](img_1.png)
+
+
 Referances
 
 - https://stackoverflow.com/questions/54353860/publish-message-to-sns-with-aws-go-sdk
